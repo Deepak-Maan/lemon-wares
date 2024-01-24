@@ -123,6 +123,27 @@ export const Check = () => {
         </svg>
     )
 }
+export const LeftTriangle = () => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+            <path d="M72 71.9998L6.29444e-06 71.9998L72 -0.000244141L72 71.9998Z" fill="#B00000" />
+        </svg>
+    )
+}
+export const LeftTriangle2 = () => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+            <path d="M40 40H0L40 0V40Z" fill="#B00000" />
+        </svg>
+    )
+}
+export const RightTriangle = () => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+            <path d="M0 40.0005H40L0 0.000488281L0 40.0005Z" fill="#B00000" />
+        </svg>
+    )
+}
 
 
 

@@ -5,7 +5,12 @@
     .overflow {
         overflow: hidden;
     }
+
     .w-unset {
         width: unset !important;
     }
+}
+
+* {
+    scroll-behavior: smooth;
 }

@@ -10,7 +10,7 @@ import BrandingCard from '../assets/images/branding-cards.webp'
 import { LargeQuotes, SmallQuotes } from './Icons'
 const RealStories = () => {
     return (
-        <div className='px-3 mx-auto max-w-[1220px] pt-10 sm:py-10'>
+        <div className='px-3 mx-auto max-w-[1220px] pt-10 sm:py-10' id='blog'>
             <div className='grid xl:grid-cols-2 pb-5 sm:my-5 md:my-10 lg:my-20 gap-[30px]'>
                 <div className='flex flex-col xl:items-end'>
                     <div className='relative'>

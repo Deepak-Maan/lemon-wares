@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import main from '../assets/images/girl-with-laptop.webp'
+import { LeftTriangle, LeftTriangle2, RightTriangle } from './Icons';
 
 const Hero = () => {
   // tabs
@@ -8,7 +9,7 @@ const Hero = () => {
     setdata(tab);
   }
   return (
-    <div className=' max-w-[1200px] px-3 mx-auto pt-5 sm:pt-20'>
+    <div className=' max-w-[1200px] px-3 mx-auto pt-5 sm:pt-20' id='first'>
       <div className=' grid lg:grid-cols-2 gap-6 sm:gap-20 flex-col justify-center items-center'>
         <div className=' '>
           <div className='flex gap-4 relative'>
@@ -51,7 +52,10 @@ const Hero = () => {
             </div>
           </div>}
         </div>
-        <div>
+        <div className='relative'>
+          <div className='absolute bottom-[10%] right-2 max-lg:hidden '><LeftTriangle /></div>
+          <div className='absolute right-7 top-10  max-lg:hidden '><LeftTriangle2 /></div>
+          <div className='absolute bottom-[30%] -left-5 h-[40px] w-[40px] max-lg:hidden '><RightTriangle /></div>
           <img src={main} alt="main" />
         </div>
       </div>
