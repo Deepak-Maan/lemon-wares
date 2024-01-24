@@ -31,14 +31,14 @@ const WebHosting = () => {
         },
     ]
     return (
-        <div className=' pt-20'>
+        <div className='pt-7 sm:pt-10 md:pt-15 lg:pt-20'>
             <div className='max-w-[1280px] mx-auto px-3'>
                 <div className="grid xl:grid-cols-2 pb-5 md:pb-14 lg:pb-[118px]">
                     <div>
-                        <h2 className=' text-[#18191F] text-5xl font-extrabold leading-[64px] font-inter'>True Cloud Web  Hosting</h2>
-                        <p className=' text-[#18191F] text-lg font-normal leading-8 font-inter max-w-[573px]'>True Cloud Web Hosting All of the hosting packages we offer are deployed instantly on our SSD powered cloud. We don’t use dedicated servers that operate on single pieces of hardware. Our entire infrastructure is built to be reliable, secure, and scalable.</p>
+                        <h2 className=' text-[#18191F] text-lg sm:text-2xl lg:text-5xl font-extrabold pb-1 sm:leading-8 lg:leading-[64px] font-inter'>True Cloud Web  Hosting</h2>
+                        <p className=' text-[#18191F] text-sm sm:text-lg font-normal leading-6 sm:leading-8 font-inter max-w-[573px]'>True Cloud Web Hosting All of the hosting packages we offer are deployed instantly on our SSD powered cloud. We don’t use dedicated servers that operate on single pieces of hardware. Our entire infrastructure is built to be reliable, secure, and scalable.</p>
                     </div>
-                    <div className='grid grid-cols-2 gap-6 sm:gap-0 sm:grid-cols-3 items-center'>
+                    <div className='grid grid-cols-2 max-sm:pt-5 gap-6 sm:gap-0 sm:grid-cols-3 items-center'>
                         <img src={Cpanel} alt="partner logos" />
                         <img src={Imunify} alt="partner logos" />
                         <img src={Litespeed} alt="partner logos" />
