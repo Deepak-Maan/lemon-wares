@@ -21,7 +21,7 @@ const Nav = () => {
               <Link to={'/'}><img className="max-w-[92px]" src={Pagelogo} alt="logo" /></Link>
               <a href="#!" className=" font-poppins font-semibold text-[#000] text-[15px] leading-normal relative before:w-0 before:h-[2px] before:rounded-[10px] before:bg-[#B00000] before:absolute before:left-3 before:bottom-[-10%] before:duration-300 before:transition-all before:ease-linear before:hover:w-[77%]" > Our Services </a>
             </div>
-            <div className={`${first ? "right-0" : "right-[100%]"} flex  gap-[33px] sm:gap-0   max-[1023px]:w-full h-full fixed bg-slate-500 bg-[#0000] top-0 items-center justify-center lg:h-unset lg:static  lg:bg-transparent lg:justify-end flex-col lg:flex-row z-40 transition-all ease-linear duration-300 `} >
+            <div className={`${first ? "right-0" : "right-[100%]"} flex  gap-[33px] sm:gap-0   max-[1023px]:w-full h-full fixed bg-[#808080] bg-[#0000] top-0 items-center justify-center lg:h-unset lg:static  lg:bg-transparent lg:justify-end flex-col lg:flex-row z-40 transition-all ease-linear duration-300 `} >
               <ul className="flex items-center gap-[33px] flex-col lg:flex-row">
                 <li>
                   <a href="#1" className=" font-[Poppins] font-semibold text-[#000] text-[15px] leading-normal relative before:w-0 before:h-[2px] before:rounded-[10px] before:bg-[#B00000] before:absolute before:left-1 before:bottom-[-10%] before:duration-300 before:transition-all before:ease-linear before:hover:w-[77%] " > About </a>
