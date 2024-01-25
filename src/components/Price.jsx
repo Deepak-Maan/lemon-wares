@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import { Check } from "./Icons";
 
 const Price = () => {
+    const [first, setfirst] = useState(false)
+    function toggle() {
+        setfirst(!first)
+    }
     const [data, setdata] = useState("tab1")
     function tabs(tab) {
         setdata(tab);
@@ -29,8 +33,8 @@ const Price = () => {
             <p className=" text-base sm:text-[25px] font-normal leading-[25px] font-poppins text-center text-black pt-1 md:pt-9">Choose the package that suits you</p>
             <div className=" flex justify-center gap-4 md:gap-8 items-center pt-4 sm:pt-7 lg:pt-14">
                 <p className=" text-base sm:text-[25px] font-normal leading-[25px] font-poppins text-black">Monthly</p>
-                <span className="flex w-[70px] sm:w-[93px] h-[40px] sm:h-[50px] rounded-full bg-[#B00000] sm:ml-8 sm:mr-7 relative  items-center cursor-pointer">
-                    <span className="flex w-[25px] h-[25px] sm:w-[30px] sm:h-[30px] bg-white rounded-full absolute left-2"></span>
+                <span className={`flex w-[70px] sm:w-[93px] h-[40px] sm:h-[50px] rounded-full sm:ml-8 sm:mr-7 relative duration-300  items-center cursor-pointer ${first ? "bg-black" : "bg-[#b00000]"} `} onClick={toggle}>
+                    <span className={`flex w-[25px] h-[25px] sm:w-[30px] sm:h-[30px] bg-white rounded-full absolute duration-300 ${first ? "left-[55%]" : "left-[10%]"}`}></span>
                 </span>
                 <p className=" text-base sm:text-[25px] font-normal leading-[25px] font-poppins text-black">Yearly</p>
                 <p className=" text-[10px] max-sm:hidden font-poppins font-medium text-black leading-[9px] max-w-[87px] max-h-[24px] rounded-lg bg-[#FFE87A] py-[7px] px-[8px]">20% discount</p>
