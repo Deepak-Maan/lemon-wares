@@ -12,7 +12,7 @@ const Price = () => {
     }
     const box = [
         {
-            Heading: "Stater",
+            Heading: "Starter",
             Price: "$2.80",
             Rate: "$12.80",
         },
